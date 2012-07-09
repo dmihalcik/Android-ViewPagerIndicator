@@ -34,6 +34,9 @@
     <attr name="strokeWidth" format="dimension" />
     <attr name="unselectedColor" format="color" />
 
+    <!-- distance between circle indicators -->
+    <attr name="gapWidth" format="dimension" />
+
     <declare-styleable name="CirclePageIndicator">
         <!-- Whether or not the indicators should be centered. -->
         <attr name="centered" />
@@ -51,6 +54,7 @@
         <attr name="strokeColor" format="color" />
         <!-- Width of the stroke used to draw the circles. -->
         <attr name="strokeWidth" />
+        <attr name="gapWidth" />
     </declare-styleable>
 
     <declare-styleable name="LinePageIndicator">
@@ -64,8 +68,7 @@
         <attr name="lineWidth" format="dimension" />
         <!-- Width of each indicator line's stroke. -->
         <attr name="strokeWidth" />
-        <!-- Width of the gap between each indicator line. -->
-        <attr name="gapWidth" format="dimension" />
+        <attr name="gapWidth" />
     </declare-styleable>
 
     <declare-styleable name="TitlePageIndicator">
